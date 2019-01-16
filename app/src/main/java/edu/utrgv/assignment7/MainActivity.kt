@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity(),
     private lateinit var intrusionSwitch: SwitchCompat
     private lateinit var swipeRefresh: SwipeRefreshLayout
     private var refreshSwitch: Boolean = true
-    private val username: String = "username"
-    private val password: String = "password"
+    private val username: String = "user"
+    private val password: String = "pass"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
